@@ -47,7 +47,7 @@ class GameFace implements ActionListener
 			btn[i]=new JButton(i+1+"");
 		btn[voidd]=new JButton(" ");
 		for(int i=voidd+1;i<9;i++)
-			btn[i]=new JButton(i+1+"");
+			btn[i]=new JButton(i+"");
 		for(int i=0;i<btn.length;i++)
 		{
 			pnl2.add(btn[i]);
